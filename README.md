@@ -1,5 +1,5 @@
 # Python-Crawler-Notes
-VPN 模拟登录
+pku.edu.cn VPN 模拟登录
 
 # 抓取post数据
 ```
@@ -28,6 +28,8 @@ import requests
 import sys
 from bs4 import BeautifulSoup
 from PIL import Image
+
+# pku.edu.cn VPN
 # 初始参数，输入学号，密码。
 # 2101111539/2101111539@pku
 studentnumber = input("学号： ")
